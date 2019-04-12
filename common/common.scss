@@ -30,6 +30,22 @@ tbody {
   border-width: 1px;
 }
 
+html {
+    font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "Arial", sans-serif !important;
+}
+
+topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list-item .main-link a.title {
+    padding: 15px 0;
+    word-break: break-word;
+    color: #f15f5f;
+    font-size: 19px;
+    font-weight:500;
+}
+
+.topic-list-item.visited a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification) {
+    color: #f15f5f;
+}
+
 #main {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -163,6 +179,11 @@ header.d-header {
 
 #topic-title {
   padding-top: 0;
+}
+
+#topic-title h1 a {
+    color: #f15f5f;
+    font-weight: 500 !important;
 }
 
 .topic-map .btn {
@@ -322,7 +343,9 @@ span.user-title {
 }
 
 // Plugins 
-
+.d-header-icons .d-icon {
+    color: #fff !important;
+}
 // Babble 
 
 .babble-sidebar {
