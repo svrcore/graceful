@@ -38,7 +38,7 @@ topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list
     padding: 15px 0;
     word-break: break-word;
     color: #f15f5f;
-    font-size: 19px;
+    font-size: 16px;
     font-weight:500;
 }
 
@@ -353,6 +353,19 @@ span.user-title {
 
 .extra-info-wrapper .discourse-tag {
     color: #f15f5f !important;
+}
+
+.cooked, .d-editor-preview{
+    line-height: 1.7;
+}
+
+html p {
+    padding: 3.3px 0;
+    letter-spacing: 0.4px;
+}
+
+lightbox-wrapper, .lightbox-wrapper * {
+    margin-left: -13px;
 }
 // Babble 
 
