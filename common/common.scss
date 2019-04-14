@@ -32,6 +32,7 @@ tbody {
 
 html {
     font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "Arial", sans-serif !important;
+    font-size: 15px;
 }
 
 topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list-item .main-link a.title {
@@ -365,8 +366,64 @@ html p {
 }
 
 lightbox-wrapper, .lightbox-wrapper * {
-    margin-left: -19px;
+    margin-left: -15px;
 }
+
+.meta{
+    margin-left: 3px !important;
+}
+.topic-map h4{
+    font-size: 0.7em;
+}
+
+.topic-map h3 {
+margin-bottom: 4px;
+color: #222;
+line-height: 1.2;
+font-weight: 500;
+font-size: 0.79em;
+}
+
+span.relative-date{
+    font-size: 0.79em;
+    /*padding: 0 30px;*/
+}
+
+.pull-right a {
+    padding-right: 60px;
+}
+.wrap .contents{
+    font-size: 17px;
+}
+
+.names .username{
+    font-size: 1em;
+}
+.names span{
+    font-size: 1.5em;
+}
+
+.topic-post nav.post-controls button{
+    font-size: 1em;
+}
+
+.topic-body {
+    border-top: 1px dashed #17324f;
+}
+
+.topic-avatar{
+    border-top: 1px solid transparent;
+    margin-top: 10px;
+}
+
+.topic-post article {
+    border-top: 1px solid transparent;
+}
+
+.topic-meta-data {
+    margin-top: 10px;
+}
+
 // Babble 
 
 .babble-sidebar {
