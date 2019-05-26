@@ -39,7 +39,7 @@ topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list
     padding: 15px 0;
     word-break: break-word;
     color: #f15f5f;
-    font-size: 16px;
+    font-size: 19px;
     font-weight:500;
 }
 
@@ -55,8 +55,8 @@ topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list
 #main-outlet {
   background: rgba($secondary, .95);
   border-radius: 8px;
-  width: 75%;
-  max-width: 930px;
+  width: 79%;
+  max-width: 1200px;
   padding: 3em 3em 5%;
   @media screen and (max-width: 775px) {
     padding: 1.5em;
@@ -180,6 +180,7 @@ header.d-header {
 
 #topic-title {
   padding-top: 0;
+  text-align: center;
 }
 
 #topic-title h1 a {
@@ -426,6 +427,45 @@ span.relative-date{
 span.category-name {
     color: #f5821e;
 }
+
+.badge-notification.new-topic {
+color: #0071bc;
+}
+
+.badge-notification.new-posts, .badge-notification.unread-posts {
+background-color: #0071bc;
+color: #fff;
+}
+
+.discourse-tag.bullet{
+    font-size: 13px;
+}
+
+.topic-list span.badge-category .category-name{
+    font-size: 13px;
+}
+
+.topic-excerpt {
+    font-size: 14px !important;
+    color: #333 !important;
+}
+
+.topic-list th, .topic-list td {
+    padding: 17px 5px;
+}
+
+img.thumbnail {
+    border-radius: 4px;
+}
+
+.topic-category.ember-view {
+    display: block;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    width: 100%;
+    /* text-align: center; */
+}
+
 // Babble 
 
 .babble-sidebar {
