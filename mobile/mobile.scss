@@ -7,7 +7,7 @@
 
 #main-outlet {
   padding: 15px;
-  width: 80%;
+  width: 88%;
 }
 
 .d-header {
@@ -177,4 +177,8 @@ img.avatar {
 .search-container .search-advanced-sidebar .search-advanced-title.btn {
   background: $tertiary-low;
   border-color: $tertiary-low;
+}
+
+.title-wrapper .topic-statuses .d-icon {
+    color: #f5821e;
 }
