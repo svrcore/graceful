@@ -188,7 +188,7 @@ nav.post-controls {
 
 @media (min-width: 1250px) {
   .timeline-container {
-    margin-left: 820px;
+    margin-left: 970px;
   }
 }
 
@@ -220,4 +220,8 @@ nav.post-controls {
   .topic-body {
     width: 89%;
   }
+}
+
+.topic-body{
+    width: calc(73% + (11px * 2));
 }
