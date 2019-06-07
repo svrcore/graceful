@@ -425,7 +425,10 @@ span.relative-date{
     margin-top: 7px;
 }
 span.category-name {
-    color: #f5821e;
+    color: #fff;
+    background: #f5821e;
+    padding: 3px;
+    border-radius: 3px !important;
 }
 
 .badge-notification.new-topic {
@@ -448,6 +451,7 @@ color: #fff;
 .topic-excerpt {
     font-size: 14px !important;
     color: #333 !important;
+    margin-top: 27px !important;
 }
 
 .topic-list th, .topic-list td {
