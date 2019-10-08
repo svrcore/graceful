@@ -367,7 +367,7 @@ span.user-title {
 
 // Plugins
 .d-header-icons .d-icon {
-    color: #f2881f !important;
+    color: #fff !important;
 }
 
 .extra-info-wrapper .topic-link{
@@ -497,6 +497,10 @@ img.thumbnail {
 
 .admin-customize .current-style .nav-pills li a.active{
     background: #919191 !important;
+}
+
+.drop-down-mode .d-header-icons .active .icon{
+    background: transparent !important;
 }
 
 // Babble
