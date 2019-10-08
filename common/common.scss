@@ -6,13 +6,20 @@
   box-shadow: 0 1px $value rgba(black, 0.18);
 }
 
-body {
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
   background-color: $primary-very-low;
   @if $no-background-image == "false" {
     @if $background-image != "default" {
       // Thanks @tmoko!
       background-image: url($background-image);
     } @else {
+
+
       background-image: url($default-background);
     }
     // Default background pattern from Toptal Subtle Patterns
@@ -23,6 +30,7 @@ body {
     } @else {
       background-size: cover;
       background-repeat: no-repeat;
+      background-position: center center;
     }
   }
 }
@@ -359,7 +367,7 @@ span.user-title {
 
 // Plugins
 .d-header-icons .d-icon {
-    color: #fff !important;
+    color: #f2881f !important;
 }
 
 .extra-info-wrapper .topic-link{
@@ -481,6 +489,14 @@ img.thumbnail {
     /* align-items: center; */
     width: 100%;
     /* text-align: center; */
+}
+
+.admin-customize .current-style .edit-main-nav .nav-pills>li a.active{
+    background-color: #e45735 !important;
+}
+
+.admin-customize .current-style .nav-pills li a.active{
+    background: #919191 !important;
 }
 
 // Babble
